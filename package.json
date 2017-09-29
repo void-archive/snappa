@@ -1,0 +1,19 @@
+{
+  "name": "snappa",
+  "version": "1.0.0",
+  "description": "A discord moderation bot that keeps your server safe.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snappabot/snappa.git"
+  },
+  "author": "void",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snappabot/snappa/issues"
+  },
+  "homepage": "https://github.com/snappabot/snappa#readme"
+}
