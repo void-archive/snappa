@@ -32,4 +32,4 @@ Total Users: ${client.users.size}\`\`\``)
   }
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login('token');
