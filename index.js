@@ -19,12 +19,15 @@ client.on('message', message => {
       message.channel.send(`You've been DMed a help menu!`)
       message.author.send(`__**Commands**__\n\`\`\`
 %ping > Checks if the bot is still alive.
-%info > Gives bot statistics/information\`\`\``)
+%info > Gives bot statistics/information.
+%help > Brings up this box.\`\`\``)
   }
 
   if (message.content.startsWith(prefix + 'info')) {
       message.channel.send(`Hello ${message.author.username}. I'm Snappa, a moderation bot that'll keep your discord server safe!\n
 __**Stats:**__\`\`\`
+Author: void#4938
+Contributors: Nicki#8825
 Library: discord.js
 Total Emojis: ${client.emojis.size}
 Total Servers: ${client.guilds.size}
